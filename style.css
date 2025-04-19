@@ -1,0 +1,296 @@
+@import url("https://fonts.googleapis.com/css2?family=Liter&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Liter", serif;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* ========================================= */
+/* ================Header============== */
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(Img/banner-bk.jpg);
+  background-repeat: no-repeat;
+  padding: 70px 120px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+nav {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+nav .logo {
+  width: 80px;
+}
+nav a {
+  font-size: 20px;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+header section h1 {
+  margin: 50px 0;
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 80px;
+}
+header section button {
+  background-color: rgb(10, 219, 219);
+  color: #192440;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 30px;
+  margin: 60px 0;
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.4s;
+}
+header section button:hover {
+  margin-top: 55px;
+  color: #fff;
+}
+
+/* ================Header============== */
+/* ==============Smartest protection============== */
+
+.Smartest h1 {
+  margin-top: 70px;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+}
+.creat {
+  display: flex;
+  margin: 50px 120px;
+  justify-content: space-between;
+  color: #192440;
+}
+.creat .Anti {
+  text-align: center;
+  margin: 0 30px 70px;
+}
+/* ==============Smartest protection============== */
+/* ===============Take a lot inside=============== */
+.inside {
+  background-image: linear-gradient(169deg, #fff 55%, #00f3a2 5%, #00f3a2 40%);
+  width: 100%;
+  display: flex;
+  padding: 40px 120px;
+  align-items: center;
+  color: #192440;
+  justify-content: space-between;
+}
+.left h2 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.left button {
+  background-color: #192440;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 30px;
+  margin: 40px 0;
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.4s;
+}
+.left button:hover {
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+.inside img {
+  width: 450px;
+}
+/* ===============Take a lot inside=============== */
+/* ===============Safe and reliable=============== */
+.safe {
+  background-color: #00f3a2;
+  width: 100%;
+  display: flex;
+  padding: 60px 120px 40px;
+  align-items: center;
+  color: #192440;
+  justify-content: space-between;
+}
+.safe img {
+  width: 400px;
+}
+.right h2 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.right button {
+  background-color: #192440;
+  color: #fff;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 30px;
+  margin: 40px 0;
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.4s;
+}
+.right button:hover {
+  margin-bottom: 50px;
+  margin-top: 30px;
+}
+/* ===============Safe and reliable=============== */
+/* ===============Check our pricing=============== */
+
+.prices {
+  width: 100%;
+  display: flex;
+  padding: 70px 120px;
+  color: #192440;
+}
+.h2 {
+  color: #192440;
+  margin-top: 70px;
+  font-size: 45px;
+  font-weight: 700;
+  text-align: center;
+}
+.startup,
+.premium,
+.professional {
+  width: 500px;
+  text-align: center;
+  padding: 30px 0 20px;
+}
+.prices h1 {
+  font-size: 14px;
+  margin: 30px 0 20px;
+}
+.prices h1 span {
+  font-size: 70px;
+  font-weight: 900;
+}
+.prices button {
+  background-color: #fff;
+  color: #192440;
+  border: solid #192440 2px;
+  border-radius: 25px;
+  padding: 10px 20px;
+  margin: 40px 0;
+  font-size: 18px;
+  font-weight: 600;
+  transition: 0.4s;
+}
+.prices button:hover {
+  margin-bottom: 45px;
+  margin-top: 35px;
+  background-color: #192440;
+  color: #fff;
+}
+.premium {
+  background-color: #192440;
+  color: #fff;
+  border-radius: 8px;
+}
+.premium button {
+  background-color: #00f3a2;
+}
+.premium button:hover {
+  background-color: #00f3a2;
+}
+/* ===============Check our pricing=============== */
+/* ==================last banner================== */
+.banner {
+  display: flex;
+  justify-content: space-around;
+  padding: 70px 120px;
+  background-color: #19244018;
+}
+/* ==================last banner================== */
+/* ====================Footer===================== */
+
+.Footer {
+  width: 100%;
+  max-height: 100vh;
+  padding: 100px 100px;
+  display: flex;
+  background-image: url(Img/contact-bk.jpg);
+  background-repeat: no-repeat;
+  color: #fff;
+  justify-content: space-between;
+}
+
+
+.Footer h2 {
+  font-size: 70px;
+  font-weight: 900;
+}
+
+/* form input */
+.all {
+  display: flex;
+  color: #00f3a2;
+}
+.name{
+  margin-right: 30px;
+
+}
+.all input,
+.control {
+  width: 250px;
+  height: 35px;
+  padding: 5px 10px;
+  background: none;
+  border: solid 1px #00f3a2;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 17px;
+}
+.control {
+  max-width: 530px;
+  width: 530px;
+  height: 150px;
+}
+.submit {
+  /* width: 50%; */
+  color: #00f3a2;
+}
+.submit button {
+  width: 530px;
+  margin: 30px 0;
+  padding: 10px 0;
+  background-color: #00f3a2;
+  border: none;
+  border-radius: 25px;
+  font-size: 20px;
+  transition: 0.4s;
+}
+.submit button:hover {
+  margin: 23px 0 37px;
+}
+/* Ended */
+.end {
+  width: 100%;
+  height: 120px;
+  background-color: #192440;
+}
+
+
+@media (max-width: 920px){
+  .Footer{
+    
+  }
+
+
+
+
+
+}
